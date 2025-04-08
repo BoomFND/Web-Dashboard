@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('/font/static/Quicksand-Bold.ttf');
+}
+
+*,
+*::before,
+*::after {
+  font-family: Quicksand;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #14151f;
+}
