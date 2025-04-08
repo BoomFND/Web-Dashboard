@@ -1,0 +1,42 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --color-text: #6e6e73;
+  --color-primary: #1d1d1f;
+  --color-background: #f5f5f7;
+  --color-white: #fff;
+  --color-dialog-label: #86868b;
+  --color-dialog-item-background: #f8f8f8;
+
+  --color-primary-rgb: 29, 29, 31;
+  --color-background-rgb: 245, 245, 247;
+  --color-progress-background: rgba(134, 134, 139, 0.2);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: Urbanist;
+  font-feature-settings:
+    'ss01' on,
+    'cv01' on;
+  font-weight: 500;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --wcm-z-index: 3000;
+}
